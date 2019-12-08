@@ -13,6 +13,6 @@ int main() {
   ++ptr->height;
   int volume = ptr->length * ptr->breadth * ptr->height;
   print("%d,%d,%d\n",ptr->length, ptr->breadth, ptr->height);
-  printf("%d\n",volume
+  printf("%d\n",volume);
   return 0;
 }
